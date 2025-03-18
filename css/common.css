@@ -12,3 +12,216 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+/*task 1*/
+
+#categories {
+  list-style: none;
+}
+
+.wrapper-categories {
+margin-bottom: 24px;
+
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 16px;
+
+border-radius: 8px;
+padding: 16px;
+width: 392px;
+height: 264px;
+background: #f6f6fe;
+}
+
+.categories-list {
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 8px;
+
+width: 360px;
+height: 184px;
+}
+
+.main-title {
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+font-size: 24px;
+line-height: 1.33333;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+.categories-item {
+  font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.04em;
+color: #2e2f42;
+
+border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+
+display: flex;
+align-content: center;
+align-items: center;
+padding-left: 16px;
+}
+
+/*task 2*/
+
+.gallery {
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  gap: 48px 24px;
+
+ margin: 0 auto;
+}
+
+.images {
+  max-width: calc((100% - 48px) / 3);
+  height: auto;
+  object-fit: cover;
+}
+
+/*task 3*/
+
+.input-anon {
+  border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+
+margin-bottom: 16px;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+padding: 8px 16px;
+}
+
+.input-anon:hover {
+  border-color: #000;
+}
+
+/*task 4*/
+
+.login-form {
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 8px;
+
+width: 360px;
+height: 152px;
+}
+
+.form-name {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+
+}
+
+.form-input {
+  border: 1px solid #808080;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+}
+
+.form-input:hover {
+  border-color: #000;
+}
+
+.form-btn {
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 10px;
+
+border-color: transparent;
+border-radius: 8px;
+padding: 8px 16px;
+width: 86px;
+height: 40px;
+background: #4e75ff;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+
+margin-top: 8px;
+}
+
+.form-btn:hover {
+  background: #6c8cff;
+}
+
+/*task 5*/
+
+.widget {
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 16px;
+
+margin: 100px auto;
+}
+
+.widget-text {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+
+padding: 0;
+}
+
+.widget-btn {
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 10px;
+
+border-color: transparent;
+border-radius: 8px;
+padding: 8px 16px;
+width: 148px;
+height: 40px;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+
+background: #4e75ff;
+}
+
+.widget-btn:hover {
+  background: #6c8cff;
+}
