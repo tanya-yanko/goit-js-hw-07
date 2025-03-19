@@ -225,3 +225,77 @@ background: #4e75ff;
 .widget-btn:hover {
   background: #6c8cff;
 }
+
+/*task 6*/
+
+#controls {
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 16px;
+
+border-radius: 8px;
+padding: 32px;
+width: 486px;
+height: 104px;
+
+background: #f6f6fe;
+
+margin-bottom: 16px;
+}
+
+.controls-input {
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 10px;
+
+border: 1px solid #808080;
+border-radius: 8px;
+padding: 8px 72px;
+width: 150px;
+height: 40px;
+}
+
+.controls-btn {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 10px;
+
+border-radius: 8px;
+border-color: transparent;
+padding: 8px 16px;
+width: 120px;
+height: 40px;
+
+background: #4e75ff;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+}
+
+.dstr-btn {
+  background: #ff4e4e;
+}
+
+#boxes {
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 10px;
+
+border-radius: 8px;
+padding: 32px;
+width: 486px;
+
+
+background: #f6f6fe;
+}
